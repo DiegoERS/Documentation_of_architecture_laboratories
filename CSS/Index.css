@@ -19,7 +19,6 @@ video{
 
 .accordion{
     max-width: 500px;
- 
 }
 
 .accordion-body{
@@ -29,3 +28,7 @@ video{
 
 }
 
+
+footer {
+    text-align: center;
+  }

@@ -1,32 +1,42 @@
+Strong {
+  text-align: center;
 
+}
 
-h1{
+p {
+
   text-align: center;
 }
 
-img{
-    margin: 50px 50px ;
- width: 300px;
- border-radius: 15px;
-}
-video{
-    width: 300px;
-    border-radius: 15px;
-    margin: 50px 50px ;
+h1 {
+  text-align: center;
 }
 
-.accordion{
-    max-width: 500px;
+img {
+
+  margin: 50px 475px;
+  width: 300px;
+  border-radius: 15px;
 }
 
-.accordion-body{
+video {
+  width: 300px;
+  border-radius: 15px;
+  margin: 50px 475px;
+}
 
- display: flex;
- flex-direction: column;
+.accordion {
+  max-width: 500px;
+}
+
+.accordion-body {
+
+  display: flex;
+  flex-direction: column;
 
 }
 
 
 footer {
-    text-align: center;
-  }
+  text-align: center;
+}

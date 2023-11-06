@@ -258,31 +258,36 @@
       </h2>
       <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <p>En esta clase comenzamos a aplicar la teoria vista en clase sobre el uso de medios sumadores de 2 bits,
-            sumadores completos de 3 bits y restadores binarios , así como sus diagramas, además para realizar estos
-            circuitos necesitaremos implementar las diversas compuertas lógicas que vimos el laboratorio anterior(AND,OR
-            y NOT). </p>
+          <p>En esta clase comenzamos a aplicar la teoria vista en clase sobre el uso del lenguaje ensamblador para el PIC16f84a,
+            con esto en mente, comenzamos a codificar el software necesario para implementar acciones a este PIC, además de su simulación virtual
+            y por ultimo, creandolo desde 0 en una protoboard de pequeño tamaño.
+             </p>
           <br>
-          <p>Por lo que comenzaremos la demostración de los diferentes circuitos realizados en este laboratorio.</p>
+          <p>Por lo que comenzaremos con la demostración del software escrito en ensamblador para la ejecución de este laboratorio.</p>
           <br>
 
           <strong>Codigo de ensamblador</strong>
           <br>
-          <p> </p>
+          <p>Con este codigo lo que buscamos es que mediante el puerto "B" del PIC16f84a, se conecte un LED y este parpadee, para poder realizar
+          este software, en clases anteriores se introdujeron conceptos como "Macros" y la funcionalidad de diferentes comandos que se utilizan
+          para poder crear este software. </p>
           <br>
           <img src="Media/Lab4/Captura de pantalla 2023-11-05 194856.png" alt="No se encontro la imagen">
           <img src="Media/Lab4/Captura de pantalla 2023-11-05 194905.png" alt="No se encontro la imagen">
           <Strong>Prueba en proteus</Strong>
-
+          <br>
+          <p>Una vez teniendo el codigo listo y compilado, se nos presentan dos simuladores virtuales para estos microships, uno es llamado Proteus y el 
+          otro simuIDE, para esta prueba utilizamos Proteus y cargamos el firmware del codigo anterior a nuestro PIC virtual, por lo que así comprobamos
+          que hace lo siguiente: </p>
           <video src="Media/Lab4/ejemplo1 - Proteus 8 Professional - Schematic Capture 2023-11-05 19-54-13.mp4" controls></Video>
           
           <Strong>Forma fisica</Strong>
-          
+          <br>
+          <p>Por ultimo, creamos la forma fisica de este circuito, ya teniendo en cuenta que el codigo el cual escribimos anteriormente funciona correctamente,
+            por lo que procedimos a crear el circuito y además, añadimos al circuito una forma de conectar un PICkit 3, este se encarga de 
+            cargar firmware (programas) en el microcontrolador y también se puede utilizar para depurar programas en tiempo real, por lo que así
+            se nos facilita el subir cualquier otro tipo de firmware al pic el cual estamos trabajando, el circuito se ve y funciona de la siguiente forma: </p>
           <video src="Media/Lab4/microshipVideo.mp4" controls></Video>
-
-          
-          
-
 
           
         </div>
@@ -298,12 +303,12 @@
       </h2>
       <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
         <div class="accordion-body">
-          <p>En esta clase comenzamos a aplicar la teoria vista en clase sobre el uso de medios sumadores de 2 bits,
-            sumadores completos de 3 bits y restadores binarios , así como sus diagramas, además para realizar estos
-            circuitos necesitaremos implementar las diversas compuertas lógicas que vimos el laboratorio anterior(AND,OR
-            y NOT). </p>
+          <p>En esta clase reutilizamos el circuito creado en el laboratorio #4 el cual se trataba de la implementación del PIC16f84a,
+            tomando esto en cuenta, conocimos la estructura de un motor antes de implementarlos, los puertos que este tiene y como funcionan,
+            una vez comprendido esto, lo conectamos al circuito del PIC16f84a para visualizar su funcionalidad.
+             </p>
           <br>
-          <p>Por lo que comenzaremos la demostración de los diferentes circuitos realizados en este laboratorio.</p>
+          <p>Por lo que primeramente,comenzaremos la demostración de algunas imagenes para la visualización del motor.</p>
           <br>
 
           <strong>Imagenes del motor</strong>
@@ -311,7 +316,8 @@
           <img src="Media/Lab5/motorImagen1.jpg" alt="No se encontro la imagen">
           <img src="Media/Lab5/motorImagen2.jpg" alt="No se encontro la imagen">
           <Strong>Funcionamiento del motor</Strong>
-
+          <br>
+          <p>Por ultimo, veremos un video del motor en funcionamiento utilizando el firmware cargado en el PIC16f84a del laboratorio anterior.</p>
           <video src="Media/Lab5/motorVideo.mp4" controls></Video>
           
 
